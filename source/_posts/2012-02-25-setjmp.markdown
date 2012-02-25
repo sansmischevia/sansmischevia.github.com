@@ -1,0 +1,36 @@
+---
+layout: post
+title: "jmp'ing in to blogging"
+date: 2012-02-25 14:53
+comments: true
+categories: 
+---
+
+``` c static variables
+#include <stdio.h>
+#include <setjmp.h>
+
+static jmp_buf buf;
+
+int main(void)
+{
+   volatile int b = 36;
+
+   if (setjmp(buf) != 0)
+   {
+      printf(" bryant is: %d years old\n", b);
+      exit(0);
+   }
+   b = 25;
+   longjmp(buf, 1);
+}
+```
+What gets printed out?
+
+1. bryant is 25 years old 
+1. bryant is 36 years old
+1. "eff it, don't care."
+1. SegFault
+
+Nothing like a good ol' setjmp to kick off this blog. Check back more for interesting coding samples, notes on what it's like to work at a Silicon Valley startup, and my travels. All wrapped in ... code.
+
