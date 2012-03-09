@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "working 100 hours a week"
+title: "working 80 hours a week"
 date: 2012-02-27 23:43
 comments: true
 categories: startup
