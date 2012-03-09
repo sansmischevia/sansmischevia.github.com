@@ -1,6 +1,17 @@
+<style>
+	img.me {
+		width:75px; height:75px; float: right; margin-top: -75px; 
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+</style>
 <hgroup>
   <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
   {% endif %}
+  <a href="/about">
+	  <img src="/assets/images/b1.jpg" class="me"/>
+	</a>
 </hgroup>
