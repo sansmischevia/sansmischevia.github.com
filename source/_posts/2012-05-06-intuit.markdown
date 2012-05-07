@@ -1,0 +1,27 @@
+---
+layout: post
+title: "How working at a big company will prepare you for startup land"
+date: 2012-05-7 00:00
+comments: true
+categories: 
+---
+
+I never thought I’d work for a large company. At university, I always relished the small team atmosphere, and the intellectual environment of academia. I didn't think that could exist at large companies. When it came time to decide what company to work for out of school, I had the option of a ‘large’ startup (15 employees is large to me), a software consultancy, and an established high tech company in the valley, Intuit. 
+
+As a young engineer I felt that I had to go work for the company where I could learn the most. The large-ish startup was high on my list, since I thought that’s probably where I’d write the most code. I ended up joining Intuit for the location, and it ended up being the one company where I probably spent the least amount of time writing code. However, it ended up being a great career decision. Not because I didn’t spend most of my time writing code, which I love doing, but I spent most of my time building a great product. Intuit taught me about how to approach building great products. Here are my takeaways:
+
+### 1. Innovation reigns supreme
+
+Scott Cook and the leadership team at Intuit does an amazing job of cultivating an amazing culture of innovation. The theory is, if you give people the power and ability to come up with great ideas, great ideas will follow. If you're on the bottom of the food chain and you have an idea, there is a manager or business leader there that will take your meeting. There’s also the sense that if you want to accomplish something, there are many ways for you to get them done. For a Fortune 500 company, Intuit’s ability to react to its employee’s ideas and tur  them into great products is amazing. 
+
+### 2. Customer Driven Development
+If you’ve read the Lean Startup, by Eric Reiss, you probably already know a little bit about Intuit’s design and development philosophy. Eric uses several examples of how Intuit employs this notion of “fast iterations”, and “learn fast” to achieve excellent product market fit. This method of execution started getting really big in 2008 when I first joined, and I’m happy Eric brought these philosophies to the rest of Silicon Valley, and the world. 
+
+### 3. Work with Excellence (which means hiring excellent people)
+
+Intuit has some of the most amazing product, engineering, and marketing minds in all of corporate America. They serve as amazing people to replicate and learn from. On top of that, there are internal ideation and processes in place to make sure that the right talents are properly showcased. We often ran ‘Design for Delight’ sessions, which I happily referred to as brainstorming sessions on crack. These intense sessions involved every team member  - product, engineering, and marketing, and really brought everyone together. 
+
+Fast forward a few years… I grow restless and great as Intuit is at making things happen, I wanted to go lightspeed. So I joined Vungle to build the first version of the product, with a rough idea of what had to be done. I had a chance to code 20 hours a day if I wanted to, and I also an opportunity to engage with our customers, and apply all my learnings from my corporate days. At Vungle we’ve created an environment that allows you to stay creative, work with customers on solving their most important problems, and learn alongside some of the smartest people in the industry. We’re hiring, and it looks like I’ll be finding myself working at a ‘large’ startup again. 
+
+If you’re feeling the same itch, shoot me an email at [chou.bryant@gmail.com](mailto:chou.bryant@gmail.com?subject="Im itchy fo sho")
+
