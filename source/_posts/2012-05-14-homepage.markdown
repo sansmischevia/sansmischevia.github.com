@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Best homepage"
+date: 2012-02-27 23:43
+comments: true
+categories: startup
+---
+
+http://fuckinghomepage.com/
+
+This is the best web page to visit if you only want to procrastinate for a few minutes instead of losing hours on Facebook, reddit, etc..
