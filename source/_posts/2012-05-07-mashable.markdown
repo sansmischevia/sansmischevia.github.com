@@ -6,6 +6,6 @@ comments: true
 categories: 
 ---
 
-Mashable.com has teamed up with Portal A and is feature Vungle for a 16 episode series on Vungle's Launch. Check it out!
+Mashable.com has teamed up with Portal A and is featuring Vungle for a 16 episode series on Vungle's Launch. Check it out!
 
 [Mashable](http://mashable.com/2012/05/07/vungle-behind-the-launch/)
