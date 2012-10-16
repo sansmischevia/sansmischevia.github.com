@@ -15,7 +15,7 @@ As a young engineer I felt that I had to go work for the company where I could l
 Scott Cook and the leadership team at Intuit does an amazing job of cultivating an amazing culture of innovation. The theory is, if you give people the power and ability to come up with great ideas, great ideas will follow. If you're on the bottom of the food chain and you have an idea, there is a manager or business leader there that will take your meeting. There’s also the sense that if you want to accomplish something, there are many ways for you to get them done. For a Fortune 500 company, Intuit’s ability to react to its employee’s ideas and tur  them into great products is amazing. 
 
 ### 2. Customer Driven Development
-If you’ve read the Lean Startup, by Eric Reiss, you probably already know a little bit about Intuit’s design and development philosophy. Eric uses several examples of how Intuit employs this notion of “fast iterations”, and “learn fast” to achieve excellent product market fit. This method of execution started getting really big in 2008 when I first joined, and I’m happy Eric brought these philosophies to the rest of Silicon Valley, and the world. 
+If you’ve read the Lean Startup, by Eric Reiss, you probably already know a little bit about Intuit’s design and development philosophy. Eric uses several examples of how Intuit employs this notion of “fast iterations", and “learn fast" to achieve excellent product market fit. This method of execution started getting really big in 2008 when I first joined, and I’m happy Eric brought these philosophies to the rest of Silicon Valley, and the world. 
 
 ### 3. Work with Excellence (which means hiring excellent people)
 

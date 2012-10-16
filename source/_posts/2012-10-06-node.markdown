@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Similaries between startups and node.js - part 1"
+date: 2012-10-06 14:45
+comments: true
+categories: 
+---
+
+It's been awhile since I last blogged about the intersection of business and programming, so I think it's about time to marry two disparate topics again in another random post. I'm a big fan of node.js, and there are some very obvious advantages that make the technology beneficial to a growing company. This post will be an attempt to correlate the strengths of node.js to the successful aspects of building and running a company. 
+
+### Modularity
+
+node.js's use of modules helps developers separate concerns. I like to think about it as [encapsulation](http://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming). In software engineering, it's vital for complex projects to have proper encapsulation, which helps accomplish three things:
+1.  Delegation
+2.  Abstraction
+and 
+3.  Separation of concerns
+
+Building a startup requires trust. You must be able to delegate freely, and trust that the people you rely on are fully capable and dedicated to accomplishing their tasks. Of course, there are certain teams that are built where everyone is capable of doing everything. But great leaders sniff out who is best at their individual tasks and assign them to dedicate the majority of their time to performing that one function. 
+
+Think of mikeal's [request](https://github.com/mikeal/request) module. It handles HTTP requests beautifully, and abstracts out a lot of the underlying node.js HTTP features, giving the higher level developer the ability to write concise and clean HTTP code without worrying about the nitty gritty.
+
+Similarly, your top sales hire should be delegated to bring in business, relieving the burdens of other core team members to excel in their individual roles.
+
+### Asynchrony
+
+node.js is best known for it's "event-driven, non-blocking" architecture.  What does this even mean? Well, I think it's best exhibited by Javascript (node.js's language). In Javascript, which is essentially a functional language wrapped in Java syntax, you can define what is called a [‘callback'](http://en.wikipedia.org/wiki/Callback_(computer_programming)). A callback allows you to resume execution at a later time, presumably when a previously requested resource is made available. This is a great language paradigm aimed at freeing up resources to work on other things while you wait for something else to finish. 
+
+In startups, you will move fast. But there are always thirty to fifty things you will need to do in any given day. It's important to prioritize your work, and to constantly check back on the progress of various tasks. In a world dominated by email, I apply the asynchronous concepts of node.js to the way I handle my email. 
+
+I receive three types of email:
+
+1.  Meeting requests
+
+2.  Direct Address
+
+3.  Read Later
+
+Via gmail shortcuts (so brilliantly inspired by [Pine]( http://helix.nih.gov/Email/pine/pineintro.html "Pine")), I can quickly organize and sort my email so that I can schedule my meetings early in the day. Emails with customers/partners overseas get top priority, to make sure they get a response when they start their workday. Emails with potential hires then get the next priority, as I try my best to ensure that our hiring process is smooth for our candidates. Then, I'll appropriately label the ‘Read Later' emails so I can clear out my inbox to easily visual the ‘Direct Address' emails. I'll sort these based on time sensitivity.
+
+### Speed
+
+There is no denying node.js’ raw computing speed. Since it’s compiled Javascript, it will crush through network traffic as long as your application isn’t too CPU intensive. At Vungle, we do over 11 million API calls a day, and process hundreds of thousands of data points every couple minutes. Our stack is currently made up of two c1.xlarges as we’ve found our application to be mostly CPU bound. 
+
+But I’m actually more impressed with how easy it was to build up our stack on node.js in a manner of months. This is where node’s speed really makes the difference for startups. We were able to easily prototype and implement an infrastructure with a very small team. We use a lot of development methodologies (like our own brand of Agile), but one that I always lean on the most is [KISS](http://en.wikipedia.org/wiki/KISS_principle).
+
+With the [Lean Startup](http://theleanstartup.com/) movement, we’ve seen companies quickly pivot and iterate on their product. Like I detailed in [my other post](/blog/2012/05/07/intuit), Customer Driven Development means you will have to quickly react, and to build features quickly to learn in the market. With the help of [Express](http://expressjs.com) and [Bootstrap](http:// twitter.github.com/bootstrap/), we were able to deliver our KISS solutions with speed. 
+
+
+ 
