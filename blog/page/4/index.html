@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.brryant.com/">
+  <link rel="canonical" href="http://www.brryant.com/blog/page/4/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -31,8 +31,8 @@
   <meta name="og:site_name" content="TIL bryant..." />
   <meta name="og:title" content="TIL bryant..." />
   <meta name="og:description" content=" haha " />
-  <meta name="og:url" content="http://www.brryant.com/index.html"/>
-  <meta name="url" content="http://www.brryant.com/index.html">
+  <meta name="og:url" content="http://www.brryant.com/blog/page/4/index.html"/>
+  <meta name="url" content="http://www.brryant.com/blog/page/4/index.html">
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -121,7 +121,7 @@
 
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/10/16/workingwith-engineers/">Working With Engineers</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/02/25/setjmp/">Jmp&#8217;ing in to Blogging</a></h1>
     
     
       <p class="meta">
@@ -146,7 +146,7 @@
   
 
 
-<time datetime="2012-10-16T11:29:00-07:00" pubdate data-updated="true">2012-10-16 11:29:00</time> - 
+<time datetime="2012-02-25T14:53:00-08:00" pubdate data-updated="true">2012-02-25 14:53:00</time> - 
         
 
 
@@ -156,135 +156,56 @@
   </header>
 
 
-  <div class="entry-content"><p>I’m currently 37,000 feet over Lake Michigan, on my way to New York. It&#8217;s been an incredible ride this past year. On the 28th of October, it will mark the one-year anniversary of me leaving my cushy corporate job and embarking on a journey to staruplandia. Things have been going great, and our team has been growing.</p>
+  <div class="entry-content"><figure class='code'><figcaption><span>static variables</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;setjmp.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">static</span> <span class="kt">jmp_buf</span> <span class="n">buf</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>   <span class="k">volatile</span> <span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">36</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>   <span class="k">if</span> <span class="p">(</span><span class="n">setjmp</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>   <span class="p">{</span>
+</span><span class='line'>      <span class="n">printf</span><span class="p">(</span><span class="s">&quot; bryant is: %d years old</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+</span><span class='line'>      <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>   <span class="p">}</span>
+</span><span class='line'>   <span class="n">b</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
+</span><span class='line'>   <span class="n">longjmp</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
+
+<p>What gets printed out?</p>
+
+<ol>
+<li>bryant is 25 years old</li>
+<li>bryant is 36 years old</li>
+<li>&#8220;eff it, don&#8217;t care.&#8221;</li>
+<li>SegFault</li>
+</ol>
+
+
+<p>Nothing like a good ol&#8217; setjmp to kick off this blog. Check back more for interesting coding samples, notes on what it&#8217;s like to work at a Silicon Valley startup, and my travels. All wrapped in &#8230; code.</p>
 </div>
   
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/10/16/workingwith-engineers/">Read on &rarr;</a>
-    </footer>
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/10/06/node/">Similaries Between Startups and node.js - Part 1</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <span class="fn">bryant chou</span></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-06T14:45:00-07:00" pubdate data-updated="true">2012-10-06 14:45:00</time> - 
-        
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It&#8217;s been awhile since I last blogged about the intersection of business and programming, so I think it&#8217;s about time to marry two disparate topics again in another random post. I&#8217;m a big fan of node.js, and there are some very obvious advantages that make the technology beneficial to a growing company. This post will be an attempt to correlate the strengths of node.js to the successful aspects of building and running a company.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/10/06/node/">Read on &rarr;</a>
-    </footer>
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/07/08/best-quote-ever/">Only Reason for Traveling</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <span class="fn">bryant chou</span></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-08T23:51:00-07:00" pubdate data-updated="true">2012-07-08 23:51:00</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/travel/'>travel</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>The most beneficial effect of traveling that I’ve found is that it forces you to become more confident and independent in a million, tiny, unnoticeable ways that add up to a great, noticeable whole. The more difficult and exotic the culture, the more it challenges you, the more it engages you on an emotional level, and the more you grow in intangible and personal ways.</p></blockquote>
-
-<p>I lived in India for 4 months in 2007, and when people ask me what it was like living and traveling all around the country for that length of time, I usually respond with something simple because I don&#8217;t want people to have a bad impression. Responses range from something plain like, &#8220;rad&#8221;, or &#8220;wild&#8221;, to something a bit more catchy, like &#8220;sensory overload&#8221;.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/07/08/best-quote-ever/">Read on &rarr;</a>
-    </footer>
   
 
 
@@ -296,10 +217,10 @@ posted in
       <div class="row">
         <ul class="pager">
           
-            <li class="previous">
-              <a href="/blog/page/2/">&larr; Older</a>
-            </li>
           
+            <li class="next">
+              <a class="next" href="/blog/page/3/">Newer &rarr;</a>
+            </li>
           
         </ul>
       </div>

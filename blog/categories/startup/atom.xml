@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: startup | TIL bryant...]]></title>
+  <link href="http://www.brryant.com/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://www.brryant.com/"/>
+  <updated>2013-01-04T01:26:47-08:00</updated>
+  <id>http://www.brryant.com/</id>
+  <author>
+    <name><![CDATA[bryant chou]]></name>
+    <email><![CDATA[chou.bryant@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[working 80 hours a week]]></title>
+    <link href="http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week/"/>
+    <updated>2012-02-27T23:43:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week</id>
+    <content type="html"><![CDATA[<p>Many have asked me asked me what it's like to work at a startup. I think that's a pretty stupid question. Everyone pretty much knows that startups have long hours, and if you're an early employee, the number of responsibilities that you have working at a start up is probably a whole order of magnitude greater than your 'responsibilities' at a position at a larger company. If you go on vacation at a big company, no one will even notice. If you go on vacation at a startup, investors are probably calling their CEOs asking why they saw your engineer at the airport boarding a plane instead of behind a computer.</p>
+
+<p>The question is, WHY you work long hours at a startup.</p>
+
+<!--more-->
+
+
+<p>First, there's the learning potential. When you have the opportunity to dramatically change the course of business everyday, it motivates you to do your best. The amount of knowledge that you can accumulate while working at a startup is vast, but also interdiciplinary. For example, today I served as the compay's PM, engineer, market strategist, and developer relations manager. Tomorrow? Recruiter, manager, and hoping a little bit of front-end design and development. Lots of hats, lots of problems to solve.</p>
+
+<p>Second, the reward. Probably a discussion for another post, but people really do have a good reason to put in long hours, right?</p>
+
+<p>Finally, this sad reason:</p>
+
+<blockquote><p>One big difference between the U.S. and Europe is that in the U.S. health insurance is generally tied to your employer, something that exists virtually no where else. If you lose your job you may have to pay a lot more (COBRA) for a limited time; even if you get a new job your coverage might not start for as long as 6 months. So the fear of losing your job and its health coverage might make you more likely to accept longer free hours. It's almost as if the system was designed to keep you from switching employers (especially if you have a family). In Europe your health is not tied to your employment in any way. If companies want to keep a valuable employee they have to do something positive and entice them to stick around. Many European countries (and the Eurozone) also make it difficult to expect or even ask for free overtime.</p></blockquote>
+
+<p><em>source: <a href="http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you">http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you</a></em></p>
+
+<p>How big of an issue is this? Well, pretty big. For someone as injury prone as me, a bike accident or serious illness could be life changing. Imagine staring down a 200k medical bill after receiving treatment for lupus or (name your favorite disease). Also, this unfortunately puts even more pressure on single income families to keep a stable job.</p>
+
+<p>There are a few reasons why I think you get a pass card for willingly working 100+ hours a week:</p>
+
+<ol>
+<li>You're learning so much, and having so much fun doing it, that it would be a waste of time to be doing anything else.</li>
+<li>Your family depends on your job and income</li>
+</ol>
+
+
+<p>Here are reasons to never work more than you're required to work. (40 hours a week in the US)</p>
+
+<ol>
+<li>Your boss is pressuring you</li>
+<li>You want to break into the top 0.5% (if you really want to, at least ask yourself why: <a href="http://www2.ucsc.edu/whorulesamerica/power/investment_manager.html">http://www2.ucsc.edu/whorulesamerica/power/investment_manager.html</a> )</li>
+</ol>
+
+
+<p>Above all, be happy, and don't forget about your friends and family the next time you stay at the office past midnight.</p>
+
+<p><em>damn, too late to call mum now..</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Best homepage]]></title>
+    <link href="http://www.brryant.com/blog/2012/02/27/homepage/"/>
+    <updated>2012-02-27T23:43:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/02/27/homepage</id>
+    <content type="html"><![CDATA[<p>http://fuckinghomepage.com/</p>
+
+<p>This is the best web page to visit if you only want to procrastinate for a few minutes instead of losing hours on Facebook, reddit, etc..</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[TIL bryant...]]></title>
+  <link href="http://www.brryant.com/atom.xml" rel="self"/>
+  <link href="http://www.brryant.com/"/>
+  <updated>2013-01-04T01:26:47-08:00</updated>
+  <id>http://www.brryant.com/</id>
+  <author>
+    <name><![CDATA[bryant chou]]></name>
+    <email><![CDATA[chou.bryant@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Working with Engineers]]></title>
+    <link href="http://www.brryant.com/blog/2012/10/16/workingwith-engineers/"/>
+    <updated>2012-10-16T11:29:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/10/16/workingwith-engineers</id>
+    <content type="html"><![CDATA[<p>I’m currently 37,000 feet over Lake Michigan, on my way to New York. It&#8217;s been an incredible ride this past year. On the 28th of October, it will mark the one-year anniversary of me leaving my cushy corporate job and embarking on a journey to staruplandia. Things have been going great, and our team has been growing.</p>
+
+<!--more-->
+
+
+<p>To help our new, non-tech hires onboard, I’ve written a quick one-pager-turned-three-pager about what it’s like to work with engineers, and how to work with engineers effectively. I hope people outside of Vungle can benefit from this as well.</p>
+
+<p><strong>Note!</strong> These are my own, personal thoughts that I’ve accumulated after working for four Silicon Valley technology companies, purely in the software and mobile industry. I’ve been on both sides of the table – a pesky intern bugging my mentors for help, and a CTO where I can never answer enough questions. You may not agree with a lot of generalizations that I’m making, but hopefully you get the message.</p>
+
+<p>Link to post: <a href="http://www.brryant.com/assets/documents/How%2520to%2520work%2520with%2520Software%2520Engineers.pdf">Working with Engineers - PDF</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Similaries between startups and node.js - part 1]]></title>
+    <link href="http://www.brryant.com/blog/2012/10/06/node/"/>
+    <updated>2012-10-06T14:45:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/10/06/node</id>
+    <content type="html"><![CDATA[<p>It&#8217;s been awhile since I last blogged about the intersection of business and programming, so I think it&#8217;s about time to marry two disparate topics again in another random post. I&#8217;m a big fan of node.js, and there are some very obvious advantages that make the technology beneficial to a growing company. This post will be an attempt to correlate the strengths of node.js to the successful aspects of building and running a company.</p>
+
+<!--more-->
+
+
+<h3>Modularity</h3>
+
+<p>node.js&#8217;s use of modules helps developers separate concerns. I like to think about it as <a href="http://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming">encapsulation</a>. In software engineering, it&#8217;s vital for complex projects to have proper encapsulation, which helps accomplish three things:
+1.  Delegation
+2.  Abstraction
+and
+3.  Separation of concerns</p>
+
+<p>Building a startup requires trust. You must be able to delegate freely, and trust that the people you rely on are fully capable and dedicated to accomplishing their tasks. Of course, there are certain teams that are built where everyone is capable of doing everything. But great leaders sniff out who is best at their individual tasks and assign them to dedicate the majority of their time to performing that one function.</p>
+
+<p>Think of mikeal&#8217;s <a href="https://github.com/mikeal/request">request</a> module. It handles HTTP requests beautifully, and abstracts out a lot of the underlying node.js HTTP features, giving the higher level developer the ability to write concise and clean HTTP code without worrying about the nitty gritty.</p>
+
+<p>Similarly, your top sales hire should be delegated to bring in business, relieving the burdens of other core team members to excel in their individual roles.</p>
+
+<h3>Asynchrony</h3>
+
+<p>node.js is best known for it&#8217;s &#8220;event-driven, non-blocking&#8221; architecture.  What does this even mean? Well, I think it&#8217;s best exhibited by Javascript (node.js&#8217;s language). In Javascript, which is essentially a functional language wrapped in Java syntax, you can define what is called a <a href="http://en.wikipedia.org/wiki/Callback_(computer_programming">‘callback&#8217;</a>). A callback allows you to resume execution at a later time, presumably when a previously requested resource is made available. This is a great language paradigm aimed at freeing up resources to work on other things while you wait for something else to finish.</p>
+
+<p>In startups, you will move fast. But there are always thirty to fifty things you will need to do in any given day. It&#8217;s important to prioritize your work, and to constantly check back on the progress of various tasks. In a world dominated by email, I apply the asynchronous concepts of node.js to the way I handle my email.</p>
+
+<p>I receive three types of email:</p>
+
+<ol>
+<li><p>Meeting requests</p></li>
+<li><p>Direct Address</p></li>
+<li><p>Read Later</p></li>
+</ol>
+
+
+<p>Via gmail shortcuts (so brilliantly inspired by <a href="http://helix.nih.gov/Email/pine/pineintro.html" title="Pine">Pine</a>), I can quickly organize and sort my email so that I can schedule my meetings early in the day. Emails with customers/partners overseas get top priority, to make sure they get a response when they start their workday. Emails with potential hires then get the next priority, as I try my best to ensure that our hiring process is smooth for our candidates. Then, I&#8217;ll appropriately label the ‘Read Later&#8217; emails so I can clear out my inbox to easily visual the ‘Direct Address&#8217; emails. I&#8217;ll sort these based on time sensitivity.</p>
+
+<h3>Speed</h3>
+
+<p>There is no denying node.js’ raw computing speed. Since it’s compiled Javascript, it will crush through network traffic as long as your application isn’t too CPU intensive. At Vungle, we do over 11 million API calls a day, and process hundreds of thousands of data points every couple minutes. Our stack is currently made up of two c1.xlarges as we’ve found our application to be mostly CPU bound.</p>
+
+<p>But I’m actually more impressed with how easy it was to build up our stack on node.js in a manner of months. This is where node’s speed really makes the difference for startups. We were able to easily prototype and implement an infrastructure with a very small team. We use a lot of development methodologies (like our own brand of Agile), but one that I always lean on the most is <a href="http://en.wikipedia.org/wiki/KISS_principle">KISS</a>.</p>
+
+<p>With the <a href="http://theleanstartup.com/">Lean Startup</a> movement, we’ve seen companies quickly pivot and iterate on their product. Like I detailed in <a href="http://www.brryant.com/blog/2012/05/07/intuit">my other post</a>, Customer Driven Development means you will have to quickly react, and to build features quickly to learn in the market. With the help of <a href="http://expressjs.com">Express</a> and <a href="http://%20twitter.github.com/bootstrap/">Bootstrap</a>, we were able to deliver our KISS solutions with speed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Only reason for traveling]]></title>
+    <link href="http://www.brryant.com/blog/2012/07/08/best-quote-ever/"/>
+    <updated>2012-07-08T23:51:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/07/08/best-quote-ever</id>
+    <content type="html"><![CDATA[<blockquote><p>The most beneficial effect of traveling that I’ve found is that it forces you to become more confident and independent in a million, tiny, unnoticeable ways that add up to a great, noticeable whole. The more difficult and exotic the culture, the more it challenges you, the more it engages you on an emotional level, and the more you grow in intangible and personal ways.</p></blockquote>
+
+<p>I lived in India for 4 months in 2007, and when people ask me what it was like living and traveling all around the country for that length of time, I usually respond with something simple because I don&#8217;t want people to have a bad impression. Responses range from something plain like, &#8220;rad&#8221;, or &#8220;wild&#8221;, to something a bit more catchy, like &#8220;sensory overload&#8221;.</p>
+
+<!--more-->
+
+
+<p>I have yet to run into a westerner that describes India in a way that I&#8217;d want to share with people. I feel like I can&#8217;t verbalize my experience there in a manner that does that incredible experience justice. The number of emotions, the beautiful sights, mixed in with neverending conflicts of emotions is incredibly hard to describe to someone that has not been to India. But this post over at <a href="http://postmasculine.com/a-dust-over-india">postmasculine.com</a> does an amazing job.</p>
+
+<p>My experience wasn&#8217;t nearly as difficult as the blogger&#8217;s but I definitely can relate.</p>
+
+<p>One thing holds true. I&#8217;ve been to 51 out of the 100 places that <a href="http://apps.facebook.com/onehundredplaces/?fb_source=bookmark_apps&amp;ref=bookmarks&amp;count=0&amp;fb_bmpos=2_0">The Travel List Challenge</a> has listed on their facebook app, and India has been the <em>most</em> influencial place I&#8217;ve ever been to. Unfortunately it just <em>may</em> be the boy on the train you stand next to that is coughing up blood, or the bloated stomachs of malnourished babies you see playing in garbage heaps. You leave the country with a different lens on life. You leave confused, distraught, invigorated. India is also one of the most beautiful places in the world. The sights, the sounds, the people, the food&#8230; it all comes together and will be an attack on all five of your senses.</p>
+
+<p>But when you experience such extermes of humanity, you have a much better understanding of the norm. India, you&#8217;re a wretched child, but maybe that&#8217;s why I love you most.</p>
+
+<p><img src="http://www.brryant.com/assets/images/boy.jpg" title="boy" alt="boy" />
+<img src="http://www.brryant.com/assets/images/kerala.jpg" title="kerala" alt="kerala" />
+<img src="http://www.brryant.com/assets/images/shubangan.jpg" title="Hotel Shubangan Rooftop post monsoon" alt="hotel shubangan rooftop post monsoon" /></p>
+
+<p>If you&#8217;re in your twenties, and you&#8217;re done going to the same old touristy spots, give India a shot. I promise it&#8217;ll be worth it.</p>
+
+<h2>Jai Ho!</h2>
+
+<p><a href="http://postmasculine.com/a-dust-over-india">link</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mashable follows me around]]></title>
+    <link href="http://www.brryant.com/blog/2012/05/07/mashable/"/>
+    <updated>2012-05-07T14:00:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/05/07/mashable</id>
+    <content type="html"><![CDATA[<p>Mashable.com has teamed up with Portal A and is featuring Vungle for a 16 episode series on Vungle&#8217;s Launch. Check it out!</p>
+
+<p><a href="http://mashable.com/2012/05/07/vungle-behind-the-launch/">Mashable</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How working at a big company will prepare you for startup land]]></title>
+    <link href="http://www.brryant.com/blog/2012/05/07/intuit/"/>
+    <updated>2012-05-07T00:00:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/05/07/intuit</id>
+    <content type="html"><![CDATA[<p>I never thought I’d work for a large company. At university, I always relished the small team atmosphere, and the intellectual environment of academia. I didn&#8217;t think that could exist at large companies. When it came time to decide what company to work for out of school, I had the option of a ‘large’ startup (15 employees is large to me), a software consultancy, and an established high tech company in the valley, Intuit.</p>
+
+<!--more-->
+
+
+<p>As a young engineer I felt that I had to go work for the company where I could learn the most. The large-ish startup was high on my list, since I thought that’s probably where I’d write the most code. I ended up joining Intuit for the location, and it ended up being the one company where I probably spent the least amount of time writing code. However, it ended up being a great career decision. Not because I didn’t spend most of my time writing code, which I love doing, but I spent most of my time building a great product. Intuit taught me about how to approach building great products. Here are my takeaways:</p>
+
+<h3>1. Innovation reigns supreme</h3>
+
+<p>Scott Cook and the leadership team at Intuit does an amazing job of cultivating an amazing culture of innovation. The theory is, if you give people the power and ability to come up with great ideas, great ideas will follow. If you&#8217;re on the bottom of the food chain and you have an idea, there is a manager or business leader there that will take your meeting. There’s also the sense that if you want to accomplish something, there are many ways for you to get them done. For a Fortune 500 company, Intuit’s ability to react to its employee’s ideas and tur  them into great products is amazing.</p>
+
+<h3>2. Customer Driven Development</h3>
+
+<p>If you’ve read the Lean Startup, by Eric Reiss, you probably already know a little bit about Intuit’s design and development philosophy. Eric uses several examples of how Intuit employs this notion of “fast iterations&#8221;, and “learn fast&#8221; to achieve excellent product market fit. This method of execution started getting really big in 2008 when I first joined, and I’m happy Eric brought these philosophies to the rest of Silicon Valley, and the world.</p>
+
+<h3>3. Work with Excellence (which means hiring excellent people)</h3>
+
+<p>Intuit has some of the most amazing product, engineering, and marketing minds in all of corporate America. They serve as amazing people to replicate and learn from. On top of that, there are internal ideation and processes in place to make sure that the right talents are properly showcased. We often ran ‘Design for Delight’ sessions, which I happily referred to as brainstorming sessions on crack. These intense sessions involved every team member  - product, engineering, and marketing, and really brought everyone together.</p>
+
+<p>Fast forward a few years… I grow restless and great as Intuit is at making things happen, I wanted to go lightspeed. So I joined Vungle to build the first version of the product, with a rough idea of what had to be done. I had a chance to code 20 hours a day if I wanted to, and I also an opportunity to engage with our customers, and apply all my learnings from my corporate days. At Vungle we’ve created an environment that allows you to stay creative, work with customers on solving their most important problems, and learn alongside some of the smartest people in the industry. We’re hiring, and it looks like I’ll be finding myself working at a ‘large’ startup again.</p>
+
+<p>If you’re feeling the same itch, shoot me an email at <a href="mailto:chou.bryant@gmail.com?subject=" title="Im itchy fo sho">chou.bryant@gmail.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Illusion of Information]]></title>
+    <link href="http://www.brryant.com/blog/2012/03/18/illusions/"/>
+    <updated>2012-03-18T18:18:00-07:00</updated>
+    <id>http://www.brryant.com/blog/2012/03/18/illusions</id>
+    <content type="html"><![CDATA[<p>Last week I posted a picture of my new development setup in my office: <a href="http://yfrog.com/h7sp2ezj">yfrog</a></p>
+
+<p><img src="http://www.brryant.com/assets/images/massive.jpg" title="Matrix styo" alt="matrix" /></p>
+
+<p>This setup has over 7000 diagonal pixels, and most people would think, &#8216;wow I could be so productive if I had two 22&#8221; and one 27&#8221; monitor!&#8217;. Well after using this setup for a few days and actively developing with 170 degrees of LCD fury pointing at my two small eyes, my conclusion is this: There isn&#8217;t a lot gained from using this set up.</p>
+
+<!--more-->
+
+
+<h3>Awesome</h3>
+
+<ul>
+<li>You will never have to &#8216;hide&#8217; windows. You will almost always know where everything is&#8230; simply because it&#8217;s visible and not hidden.</li>
+<li>Prevents other people from distracting me (22&#8221; towers make even the most persistent PM second guess approaching my <em>zone of flow</em>)</li>
+<li>Pull up multiple documentation sources and not have to worry about your tab order. It also probably cuts down your Cmd-Tab or Alt-Tabs by a third.</li>
+<li>Makes my investment in <a href="http://www.irradiatedsoftware.com/sizeup/">SizeUp</a> worth every penny I paid. You can&#8217;t have this kinda of screen real estate and not use SizeUp. Even for normal desktops (like my 13&#8221; MacBook Air), SizeUp is very handy.</li>
+</ul>
+
+
+<h3>Possum</h3>
+
+<p>The Illusion of Information. Didn&#8217;t you think it would be great if you could throw up XCode in one monitor, and have your Android DDMS perspective open in another? Well I thought so, especially since I was making backend changes that would have affected both versions of our SDK. I thought it&#8217;d be much easier if I had multiple windows open, so that I can check everything concurrently. Well this all would have been fine and dandy, but unfortunately, my brain is only capable of responding to a few things at once. The combination of all these different windows made it even MORE difficult to concentrate. Net-net, this was an amusing setup, but I think I&#8217;ll just go back to my one 27&#8221; iMac display next week.</p>
+
+<p>Also, I don&#8217;t have much desk space now to peel my pomelo.</p>
+
+<p>(ノಠ益ಠ)ノ彡┻━┻</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[recursion fun!]]></title>
+    <link href="http://www.brryant.com/blog/2012/03/07/recusion/"/>
+    <updated>2012-03-07T23:34:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/03/07/recusion</id>
+    <content type="html"><![CDATA[<p>Lets see how many of you guys out there know how stack frames work&#8230;</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'><span class="kt">void</span> <span class="n">e</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
+</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>   <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+</span><span class='line'>   <span class="n">e</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>   <span class="n">putchar</span><span class="p">(</span><span class="sc">&#39;\n&#39;</span><span class="p">);</span>
+</span><span class='line'>   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">e</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>   <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>   <span class="p">{</span>
+</span><span class='line'>      <span class="n">e</span><span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="p">);</span>
+</span><span class='line'>      <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d &quot;</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+</span><span class='line'>      <span class="n">e</span><span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="p">);</span>
+</span><span class='line'>   <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>What gets printed out?</p>
+
+<p>answer @bryantchou !</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[working 80 hours a week]]></title>
+    <link href="http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week/"/>
+    <updated>2012-02-27T23:43:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week</id>
+    <content type="html"><![CDATA[<p>Many have asked me asked me what it&#8217;s like to work at a startup. I think that&#8217;s a pretty stupid question. Everyone pretty much knows that startups have long hours, and if you&#8217;re an early employee, the number of responsibilities that you have working at a start up is probably a whole order of magnitude greater than your &#8216;responsibilities&#8217; at a position at a larger company. If you go on vacation at a big company, no one will even notice. If you go on vacation at a startup, investors are probably calling their CEOs asking why they saw your engineer at the airport boarding a plane instead of behind a computer.</p>
+
+<p>The question is, WHY you work long hours at a startup.</p>
+
+<!--more-->
+
+
+<p>First, there&#8217;s the learning potential. When you have the opportunity to dramatically change the course of business everyday, it motivates you to do your best. The amount of knowledge that you can accumulate while working at a startup is vast, but also interdiciplinary. For example, today I served as the compay&#8217;s PM, engineer, market strategist, and developer relations manager. Tomorrow? Recruiter, manager, and hoping a little bit of front-end design and development. Lots of hats, lots of problems to solve.</p>
+
+<p>Second, the reward. Probably a discussion for another post, but people really do have a good reason to put in long hours, right?</p>
+
+<p>Finally, this sad reason:</p>
+
+<blockquote><p>One big difference between the U.S. and Europe is that in the U.S. health insurance is generally tied to your employer, something that exists virtually no where else. If you lose your job you may have to pay a lot more (COBRA) for a limited time; even if you get a new job your coverage might not start for as long as 6 months. So the fear of losing your job and its health coverage might make you more likely to accept longer free hours. It&#8217;s almost as if the system was designed to keep you from switching employers (especially if you have a family). In Europe your health is not tied to your employment in any way. If companies want to keep a valuable employee they have to do something positive and entice them to stick around. Many European countries (and the Eurozone) also make it difficult to expect or even ask for free overtime.</p></blockquote>
+
+<p><em>source: <a href="http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you">http://thecodist.com/article/why_i_don_39_t_do_unpaid_overtime_and_neither_should_you</a></em></p>
+
+<p>How big of an issue is this? Well, pretty big. For someone as injury prone as me, a bike accident or serious illness could be life changing. Imagine staring down a 200k medical bill after receiving treatment for lupus or (name your favorite disease). Also, this unfortunately puts even more pressure on single income families to keep a stable job.</p>
+
+<p>There are a few reasons why I think you get a pass card for willingly working 100+ hours a week:</p>
+
+<ol>
+<li>You&#8217;re learning so much, and having so much fun doing it, that it would be a waste of time to be doing anything else.</li>
+<li>Your family depends on your job and income</li>
+</ol>
+
+
+<p>Here are reasons to never work more than you&#8217;re required to work. (40 hours a week in the US)</p>
+
+<ol>
+<li>Your boss is pressuring you</li>
+<li>You want to break into the top 0.5% (if you really want to, at least ask yourself why: <a href="http://www2.ucsc.edu/whorulesamerica/power/investment_manager.html">http://www2.ucsc.edu/whorulesamerica/power/investment_manager.html</a> )</li>
+</ol>
+
+
+<p>Above all, be happy, and don&#8217;t forget about your friends and family the next time you stay at the office past midnight.</p>
+
+<p><em>damn, too late to call mum now..</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Best homepage]]></title>
+    <link href="http://www.brryant.com/blog/2012/02/27/homepage/"/>
+    <updated>2012-02-27T23:43:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/02/27/homepage</id>
+    <content type="html"><![CDATA[<p>http://fuckinghomepage.com/</p>
+
+<p>This is the best web page to visit if you only want to procrastinate for a few minutes instead of losing hours on Facebook, reddit, etc..</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[jmp'ing in to blogging]]></title>
+    <link href="http://www.brryant.com/blog/2012/02/25/setjmp/"/>
+    <updated>2012-02-25T14:53:00-08:00</updated>
+    <id>http://www.brryant.com/blog/2012/02/25/setjmp</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span>static variables</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;setjmp.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">static</span> <span class="kt">jmp_buf</span> <span class="n">buf</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>   <span class="k">volatile</span> <span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">36</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>   <span class="k">if</span> <span class="p">(</span><span class="n">setjmp</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>   <span class="p">{</span>
+</span><span class='line'>      <span class="n">printf</span><span class="p">(</span><span class="s">&quot; bryant is: %d years old</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+</span><span class='line'>      <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>   <span class="p">}</span>
+</span><span class='line'>   <span class="n">b</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
+</span><span class='line'>   <span class="n">longjmp</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>What gets printed out?</p>
+
+<ol>
+<li>bryant is 25 years old</li>
+<li>bryant is 36 years old</li>
+<li>&#8220;eff it, don&#8217;t care.&#8221;</li>
+<li>SegFault</li>
+</ol>
+
+
+<p>Nothing like a good ol&#8217; setjmp to kick off this blog. Check back more for interesting coding samples, notes on what it&#8217;s like to work at a Silicon Valley startup, and my travels. All wrapped in &#8230; code.</p>
+]]></content>
+  </entry>
+  
+</feed>
