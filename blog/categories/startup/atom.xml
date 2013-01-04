@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: startup | TIL bryant...]]></title>
-  <link href="http://www.brryant.com/blog/categories/startup/atom.xml" rel="self"/>
-  <link href="http://www.brryant.com/"/>
-  <updated>2013-01-04T01:26:47-08:00</updated>
-  <id>http://www.brryant.com/</id>
+  <title><![CDATA[Category: startup | TIL bryant ...]]></title>
+  <link href="http://sansmischevia.github.com/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://sansmischevia.github.com/"/>
+  <updated>2013-01-04T02:28:17-08:00</updated>
+  <id>http://sansmischevia.github.com/</id>
   <author>
     <name><![CDATA[bryant chou]]></name>
     <email><![CDATA[chou.bryant@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[working 80 hours a week]]></title>
-    <link href="http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/02/27/working-80hrs-a-week/"/>
     <updated>2012-02-27T23:43:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week</id>
+    <id>http://sansmischevia.github.com/blog/2012/02/27/working-80hrs-a-week</id>
     <content type="html"><![CDATA[<p>Many have asked me asked me what it's like to work at a startup. I think that's a pretty stupid question. Everyone pretty much knows that startups have long hours, and if you're an early employee, the number of responsibilities that you have working at a start up is probably a whole order of magnitude greater than your 'responsibilities' at a position at a larger company. If you go on vacation at a big company, no one will even notice. If you go on vacation at a startup, investors are probably calling their CEOs asking why they saw your engineer at the airport boarding a plane instead of behind a computer.</p>
 
 <p>The question is, WHY you work long hours at a startup.</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[Best homepage]]></title>
-    <link href="http://www.brryant.com/blog/2012/02/27/homepage/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/02/27/homepage/"/>
     <updated>2012-02-27T23:43:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/02/27/homepage</id>
+    <id>http://sansmischevia.github.com/blog/2012/02/27/homepage</id>
     <content type="html"><![CDATA[<p>http://fuckinghomepage.com/</p>
 
 <p>This is the best web page to visit if you only want to procrastinate for a few minutes instead of losing hours on Facebook, reddit, etc..</p>

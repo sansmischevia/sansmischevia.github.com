@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: coding | TIL bryant...]]></title>
-  <link href="http://www.brryant.com/blog/categories/coding/atom.xml" rel="self"/>
-  <link href="http://www.brryant.com/"/>
-  <updated>2013-01-04T01:26:47-08:00</updated>
-  <id>http://www.brryant.com/</id>
+  <title><![CDATA[Category: coding | TIL bryant ...]]></title>
+  <link href="http://sansmischevia.github.com/blog/categories/coding/atom.xml" rel="self"/>
+  <link href="http://sansmischevia.github.com/"/>
+  <updated>2013-01-04T02:28:17-08:00</updated>
+  <id>http://sansmischevia.github.com/</id>
   <author>
     <name><![CDATA[bryant chou]]></name>
     <email><![CDATA[chou.bryant@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[recursion fun!]]></title>
-    <link href="http://www.brryant.com/blog/2012/03/07/recusion/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/03/07/recusion/"/>
     <updated>2012-03-07T23:34:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/03/07/recusion</id>
+    <id>http://sansmischevia.github.com/blog/2012/03/07/recusion</id>
     <content type="html"><![CDATA[<p>Lets see how many of you guys out there know how stack frames work...</p>
 
 <p>``` c</p>

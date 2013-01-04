@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[TIL bryant...]]></title>
-  <link href="http://www.brryant.com/atom.xml" rel="self"/>
-  <link href="http://www.brryant.com/"/>
-  <updated>2013-01-04T01:26:47-08:00</updated>
-  <id>http://www.brryant.com/</id>
+  <title><![CDATA[TIL bryant ...]]></title>
+  <link href="http://sansmischevia.github.com/atom.xml" rel="self"/>
+  <link href="http://sansmischevia.github.com/"/>
+  <updated>2013-01-04T02:28:17-08:00</updated>
+  <id>http://sansmischevia.github.com/</id>
   <author>
     <name><![CDATA[bryant chou]]></name>
     <email><![CDATA[chou.bryant@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Working with Engineers]]></title>
-    <link href="http://www.brryant.com/blog/2012/10/16/workingwith-engineers/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/10/16/workingwith-engineers/"/>
     <updated>2012-10-16T11:29:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/10/16/workingwith-engineers</id>
+    <id>http://sansmischevia.github.com/blog/2012/10/16/workingwith-engineers</id>
     <content type="html"><![CDATA[<p>I’m currently 37,000 feet over Lake Michigan, on my way to New York. It&#8217;s been an incredible ride this past year. On the 28th of October, it will mark the one-year anniversary of me leaving my cushy corporate job and embarking on a journey to staruplandia. Things have been going great, and our team has been growing.</p>
 
 <!--more-->
@@ -27,15 +27,15 @@
 
 <p><strong>Note!</strong> These are my own, personal thoughts that I’ve accumulated after working for four Silicon Valley technology companies, purely in the software and mobile industry. I’ve been on both sides of the table – a pesky intern bugging my mentors for help, and a CTO where I can never answer enough questions. You may not agree with a lot of generalizations that I’m making, but hopefully you get the message.</p>
 
-<p>Link to post: <a href="http://www.brryant.com/assets/documents/How%2520to%2520work%2520with%2520Software%2520Engineers.pdf">Working with Engineers - PDF</a>.</p>
+<p>Link to post: <a href="http://sansmischevia.github.com/assets/documents/How%2520to%2520work%2520with%2520Software%2520Engineers.pdf">Working with Engineers - PDF</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Similaries between startups and node.js - part 1]]></title>
-    <link href="http://www.brryant.com/blog/2012/10/06/node/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/10/06/node/"/>
     <updated>2012-10-06T14:45:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/10/06/node</id>
+    <id>http://sansmischevia.github.com/blog/2012/10/06/node</id>
     <content type="html"><![CDATA[<p>It&#8217;s been awhile since I last blogged about the intersection of business and programming, so I think it&#8217;s about time to marry two disparate topics again in another random post. I&#8217;m a big fan of node.js, and there are some very obvious advantages that make the technology beneficial to a growing company. This post will be an attempt to correlate the strengths of node.js to the successful aspects of building and running a company.</p>
 
 <!--more-->
@@ -78,15 +78,15 @@ and
 
 <p>But I’m actually more impressed with how easy it was to build up our stack on node.js in a manner of months. This is where node’s speed really makes the difference for startups. We were able to easily prototype and implement an infrastructure with a very small team. We use a lot of development methodologies (like our own brand of Agile), but one that I always lean on the most is <a href="http://en.wikipedia.org/wiki/KISS_principle">KISS</a>.</p>
 
-<p>With the <a href="http://theleanstartup.com/">Lean Startup</a> movement, we’ve seen companies quickly pivot and iterate on their product. Like I detailed in <a href="http://www.brryant.com/blog/2012/05/07/intuit">my other post</a>, Customer Driven Development means you will have to quickly react, and to build features quickly to learn in the market. With the help of <a href="http://expressjs.com">Express</a> and <a href="http://%20twitter.github.com/bootstrap/">Bootstrap</a>, we were able to deliver our KISS solutions with speed.</p>
+<p>With the <a href="http://theleanstartup.com/">Lean Startup</a> movement, we’ve seen companies quickly pivot and iterate on their product. Like I detailed in <a href="http://sansmischevia.github.com/blog/2012/05/07/intuit">my other post</a>, Customer Driven Development means you will have to quickly react, and to build features quickly to learn in the market. With the help of <a href="http://expressjs.com">Express</a> and <a href="http://%20twitter.github.com/bootstrap/">Bootstrap</a>, we were able to deliver our KISS solutions with speed.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Only reason for traveling]]></title>
-    <link href="http://www.brryant.com/blog/2012/07/08/best-quote-ever/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/07/08/best-quote-ever/"/>
     <updated>2012-07-08T23:51:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/07/08/best-quote-ever</id>
+    <id>http://sansmischevia.github.com/blog/2012/07/08/best-quote-ever</id>
     <content type="html"><![CDATA[<blockquote><p>The most beneficial effect of traveling that I’ve found is that it forces you to become more confident and independent in a million, tiny, unnoticeable ways that add up to a great, noticeable whole. The more difficult and exotic the culture, the more it challenges you, the more it engages you on an emotional level, and the more you grow in intangible and personal ways.</p></blockquote>
 
 <p>I lived in India for 4 months in 2007, and when people ask me what it was like living and traveling all around the country for that length of time, I usually respond with something simple because I don&#8217;t want people to have a bad impression. Responses range from something plain like, &#8220;rad&#8221;, or &#8220;wild&#8221;, to something a bit more catchy, like &#8220;sensory overload&#8221;.</p>
@@ -102,9 +102,9 @@ and
 
 <p>But when you experience such extermes of humanity, you have a much better understanding of the norm. India, you&#8217;re a wretched child, but maybe that&#8217;s why I love you most.</p>
 
-<p><img src="http://www.brryant.com/assets/images/boy.jpg" title="boy" alt="boy" />
-<img src="http://www.brryant.com/assets/images/kerala.jpg" title="kerala" alt="kerala" />
-<img src="http://www.brryant.com/assets/images/shubangan.jpg" title="Hotel Shubangan Rooftop post monsoon" alt="hotel shubangan rooftop post monsoon" /></p>
+<p><img src="http://sansmischevia.github.com/assets/images/boy.jpg" title="boy" alt="boy" />
+<img src="http://sansmischevia.github.com/assets/images/kerala.jpg" title="kerala" alt="kerala" />
+<img src="http://sansmischevia.github.com/assets/images/shubangan.jpg" title="Hotel Shubangan Rooftop post monsoon" alt="hotel shubangan rooftop post monsoon" /></p>
 
 <p>If you&#8217;re in your twenties, and you&#8217;re done going to the same old touristy spots, give India a shot. I promise it&#8217;ll be worth it.</p>
 
@@ -116,9 +116,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[Mashable follows me around]]></title>
-    <link href="http://www.brryant.com/blog/2012/05/07/mashable/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/05/07/mashable/"/>
     <updated>2012-05-07T14:00:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/05/07/mashable</id>
+    <id>http://sansmischevia.github.com/blog/2012/05/07/mashable</id>
     <content type="html"><![CDATA[<p>Mashable.com has teamed up with Portal A and is featuring Vungle for a 16 episode series on Vungle&#8217;s Launch. Check it out!</p>
 
 <p><a href="http://mashable.com/2012/05/07/vungle-behind-the-launch/">Mashable</a></p>
@@ -127,9 +127,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[How working at a big company will prepare you for startup land]]></title>
-    <link href="http://www.brryant.com/blog/2012/05/07/intuit/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/05/07/intuit/"/>
     <updated>2012-05-07T00:00:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/05/07/intuit</id>
+    <id>http://sansmischevia.github.com/blog/2012/05/07/intuit</id>
     <content type="html"><![CDATA[<p>I never thought I’d work for a large company. At university, I always relished the small team atmosphere, and the intellectual environment of academia. I didn&#8217;t think that could exist at large companies. When it came time to decide what company to work for out of school, I had the option of a ‘large’ startup (15 employees is large to me), a software consultancy, and an established high tech company in the valley, Intuit.</p>
 
 <!--more-->
@@ -157,12 +157,12 @@ and
   
   <entry>
     <title type="html"><![CDATA[The Illusion of Information]]></title>
-    <link href="http://www.brryant.com/blog/2012/03/18/illusions/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/03/18/illusions/"/>
     <updated>2012-03-18T18:18:00-07:00</updated>
-    <id>http://www.brryant.com/blog/2012/03/18/illusions</id>
+    <id>http://sansmischevia.github.com/blog/2012/03/18/illusions</id>
     <content type="html"><![CDATA[<p>Last week I posted a picture of my new development setup in my office: <a href="http://yfrog.com/h7sp2ezj">yfrog</a></p>
 
-<p><img src="http://www.brryant.com/assets/images/massive.jpg" title="Matrix styo" alt="matrix" /></p>
+<p><img src="http://sansmischevia.github.com/assets/images/massive.jpg" title="Matrix styo" alt="matrix" /></p>
 
 <p>This setup has over 7000 diagonal pixels, and most people would think, &#8216;wow I could be so productive if I had two 22&#8221; and one 27&#8221; monitor!&#8217;. Well after using this setup for a few days and actively developing with 170 degrees of LCD fury pointing at my two small eyes, my conclusion is this: There isn&#8217;t a lot gained from using this set up.</p>
 
@@ -191,9 +191,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[recursion fun!]]></title>
-    <link href="http://www.brryant.com/blog/2012/03/07/recusion/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/03/07/recusion/"/>
     <updated>2012-03-07T23:34:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/03/07/recusion</id>
+    <id>http://sansmischevia.github.com/blog/2012/03/07/recusion</id>
     <content type="html"><![CDATA[<p>Lets see how many of you guys out there know how stack frames work&#8230;</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -247,9 +247,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[working 80 hours a week]]></title>
-    <link href="http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/02/27/working-80hrs-a-week/"/>
     <updated>2012-02-27T23:43:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/02/27/working-80hrs-a-week</id>
+    <id>http://sansmischevia.github.com/blog/2012/02/27/working-80hrs-a-week</id>
     <content type="html"><![CDATA[<p>Many have asked me asked me what it&#8217;s like to work at a startup. I think that&#8217;s a pretty stupid question. Everyone pretty much knows that startups have long hours, and if you&#8217;re an early employee, the number of responsibilities that you have working at a start up is probably a whole order of magnitude greater than your &#8216;responsibilities&#8217; at a position at a larger company. If you go on vacation at a big company, no one will even notice. If you go on vacation at a startup, investors are probably calling their CEOs asking why they saw your engineer at the airport boarding a plane instead of behind a computer.</p>
 
 <p>The question is, WHY you work long hours at a startup.</p>
@@ -293,9 +293,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[Best homepage]]></title>
-    <link href="http://www.brryant.com/blog/2012/02/27/homepage/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/02/27/homepage/"/>
     <updated>2012-02-27T23:43:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/02/27/homepage</id>
+    <id>http://sansmischevia.github.com/blog/2012/02/27/homepage</id>
     <content type="html"><![CDATA[<p>http://fuckinghomepage.com/</p>
 
 <p>This is the best web page to visit if you only want to procrastinate for a few minutes instead of losing hours on Facebook, reddit, etc..</p>
@@ -304,9 +304,9 @@ and
   
   <entry>
     <title type="html"><![CDATA[jmp'ing in to blogging]]></title>
-    <link href="http://www.brryant.com/blog/2012/02/25/setjmp/"/>
+    <link href="http://sansmischevia.github.com/blog/2012/02/25/setjmp/"/>
     <updated>2012-02-25T14:53:00-08:00</updated>
-    <id>http://www.brryant.com/blog/2012/02/25/setjmp</id>
+    <id>http://sansmischevia.github.com/blog/2012/02/25/setjmp</id>
     <content type="html"><![CDATA[<figure class='code'><figcaption><span>static variables</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
