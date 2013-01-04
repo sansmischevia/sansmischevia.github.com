@@ -3,11 +3,11 @@ require "bundler/setup"
 require "stringex"
 
 ## -- Deploy config -- ##
-deploy_default = "s3"
+deploy_default = "push"
 s3_bucket = "www.brryant.com"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
