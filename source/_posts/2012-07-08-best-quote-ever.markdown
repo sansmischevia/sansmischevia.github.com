@@ -9,7 +9,7 @@ categories: travel
 > The most beneficial effect of traveling that I’ve found is that it forces you to become more confident and independent in a million, tiny, unnoticeable ways that add up to a great, noticeable whole. The more difficult and exotic the culture, the more it challenges you, the more it engages you on an emotional level, and the more you grow in intangible and personal ways.
 
 I lived in India for 4 months in 2007, and when people ask me what it was like living and traveling all around the country for that length of time, I usually respond with something simple because I don't want people to have a bad impression. Responses range from something plain like, "rad", or "wild", to something a bit more catchy, like "sensory overload". 
-
+<!--more-->
 I have yet to run into a westerner that describes India in a way that I'd want to share with people. I feel like I can't verbalize my experience there in a manner that does that incredible experience justice. The number of emotions, the beautiful sights, mixed in with neverending conflicts of emotions is incredibly hard to describe to someone that has not been to India. But this post over at [postmasculine.com](http://postmasculine.com/a-dust-over-india) does an amazing job.
 
 My experience wasn't nearly as difficult as the blogger's but I definitely can relate.

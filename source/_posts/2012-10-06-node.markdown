@@ -8,6 +8,8 @@ categories:
 
 It's been awhile since I last blogged about the intersection of business and programming, so I think it's about time to marry two disparate topics again in another random post. I'm a big fan of node.js, and there are some very obvious advantages that make the technology beneficial to a growing company. This post will be an attempt to correlate the strengths of node.js to the successful aspects of building and running a company. 
 
+<!--more-->
+
 ### Modularity
 
 node.js's use of modules helps developers separate concerns. I like to think about it as [encapsulation](http://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming). In software engineering, it's vital for complex projects to have proper encapsulation, which helps accomplish three things:

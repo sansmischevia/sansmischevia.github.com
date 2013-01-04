@@ -11,7 +11,7 @@ Last week I posted a picture of my new development setup in my office: [yfrog](h
 ![matrix](/assets/images/massive.jpg "Matrix styo")
 
 This setup has over 7000 diagonal pixels, and most people would think, 'wow I could be so productive if I had two 22" and one 27" monitor!'. Well after using this setup for a few days and actively developing with 170 degrees of LCD fury pointing at my two small eyes, my conclusion is this: There isn't a lot gained from using this set up.
-
+<!--more-->
 ### Awesome
 
  * You will never have to 'hide' windows. You will almost always know where everything is... simply because it's visible and not hidden.

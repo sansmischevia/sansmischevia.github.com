@@ -7,7 +7,7 @@ categories:
 ---
 
 I never thought I’d work for a large company. At university, I always relished the small team atmosphere, and the intellectual environment of academia. I didn't think that could exist at large companies. When it came time to decide what company to work for out of school, I had the option of a ‘large’ startup (15 employees is large to me), a software consultancy, and an established high tech company in the valley, Intuit. 
-
+<!--more-->
 As a young engineer I felt that I had to go work for the company where I could learn the most. The large-ish startup was high on my list, since I thought that’s probably where I’d write the most code. I ended up joining Intuit for the location, and it ended up being the one company where I probably spent the least amount of time writing code. However, it ended up being a great career decision. Not because I didn’t spend most of my time writing code, which I love doing, but I spent most of my time building a great product. Intuit taught me about how to approach building great products. Here are my takeaways:
 
 ### 1. Innovation reigns supreme

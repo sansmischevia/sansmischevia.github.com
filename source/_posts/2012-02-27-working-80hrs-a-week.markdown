@@ -9,7 +9,7 @@ categories: startup
 Many have asked me asked me what it's like to work at a startup. I think that's a pretty stupid question. Everyone pretty much knows that startups have long hours, and if you're an early employee, the number of responsibilities that you have working at a start up is probably a whole order of magnitude greater than your 'responsibilities' at a position at a larger company. If you go on vacation at a big company, no one will even notice. If you go on vacation at a startup, investors are probably calling their CEOs asking why they saw your engineer at the airport boarding a plane instead of behind a computer. 
 
 The question is, WHY you work long hours at a startup. 
-
+<!--more-->
 First, there's the learning potential. When you have the opportunity to dramatically change the course of business everyday, it motivates you to do your best. The amount of knowledge that you can accumulate while working at a startup is vast, but also interdiciplinary. For example, today I served as the compay's PM, engineer, market strategist, and developer relations manager. Tomorrow? Recruiter, manager, and hoping a little bit of front-end design and development. Lots of hats, lots of problems to solve.
 
 Second, the reward. Probably a discussion for another post, but people really do have a good reason to put in long hours, right?
