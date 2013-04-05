@@ -4,7 +4,7 @@
   <title><![CDATA[TIL bryant ...]]></title>
   <link href="http://sansmischevia.github.com/atom.xml" rel="self"/>
   <link href="http://sansmischevia.github.com/"/>
-  <updated>2013-01-04T10:14:39-08:00</updated>
+  <updated>2013-04-05T16:54:12-07:00</updated>
   <id>http://sansmischevia.github.com/</id>
   <author>
     <name><![CDATA[bryant chou]]></name>
@@ -14,11 +14,60 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Onward!]]></title>
+    <link href="http://sansmischevia.github.com/blog/2013/04/05/onward/"/>
+    <updated>2013-04-05T16:06:00-07:00</updated>
+    <id>http://sansmischevia.github.com/blog/2013/04/05/onward</id>
+    <content type="html"><![CDATA[<p>Today marks my last day at Vungle. It has been quite a ride. Now, off to new and exciting things!</p>
+
+<!--more-->
+
+
+<p>Moreover, I think the company itself is in prime position to take what I and the team have built for them, and become a leader in the mobile advertising space.</p>
+
+<p>Highlights:</p>
+
+<ul>
+<li>Working out of AngelPad and meeting some amazing entrepreneurs</li>
+<li>Looking for our first office and lucking out on Adku’s old office on 300 Beale St.</li>
+<li>Learning that it’s almost impossible being a full-time engineer and being a good CTO</li>
+<li>Being on <a href="http://mashable.com/2012/05/30/mature-startup/">web TV</a> was fun.</li>
+<li>Hiring and working with the best engineers on the planet. Much love <a href="https://twitter.com/ben1mal">ben1mal</a> and raydog!</li>
+</ul>
+
+
+<p>Tech Highlights:</p>
+
+<ul>
+<li>You <em>can</em> build a web + mobile stack that handles 250MM API requests a day with three engineers - invest in developer tools early and often.</li>
+<li><a href="http://redis.io/">redis</a> is a beast. period.</li>
+<li>Learning that node 0.6 performs better than node 0.8 (both in memory consumption and latency)</li>
+<li><a href="nodejs.org">node.js</a> is great at rapid prototyping as well as running handling large amounts of production traffic.</li>
+<li><a href="mongolab.com">mongolab</a> is a fantastic partner if you don’t want to worry about your database uptime/maintenance/migration</li>
+<li><a href="http://aws.amazon.com/redshift/">redshift</a> makes MapReduce/Hive/Pig obsolete.</li>
+<li><a href="http://aws.amazon.com/dynamodb/">dynamodb</a> is a must-use if it fits your data access pattern.</li>
+</ul>
+
+
+<p>What&#8217;s next?</p>
+
+<p>It&#8217;s time I build another company from the ground up. I&#8217;m excited to annouce that I will be joining my close friend and former coworker Vlad on <a href="http://webflow.com/">webflow.com</a>. We&#8217;ll be launching by the end of summer so stay tuned! Onward!</p>
+
+<!--
+- ..--- -.-- --. -.-- .-- -..- ... .. .... .-. --- .- .-- ..... -. -.-. -.-- .-- --. ... ... -.. - .. --. .---- ...- -.-. ...-- --.- --. --.. -..- .... .--- .- -..- .-. .-.. --.. -.-. -... .... -.-- -- ----. .---- -.. -.-. -... ...-- -... ...-- .--- .-. .- .-- ..... -. .. .... -.. .--. -.. --. --. --. -.-. --. ...- ...- -.-. --. -..- .-..  .. .... .-. --- -.-- -..- --.- --. -.-- -..- .--- .-.. .. --. -. ...- -... -..- -... .-.. -.. --. ...- ..- -.. -.-. .-- --. -... --. ----. ..... -.-- .-- .-- ... .. --. ..-. ..- --.. -.-. -... ...-- -... ..--- ....- -. -.. -.-. -... .. -.-- .-- -. .-. -.-. ...-- .-. .... -.-- .. -... ----- .- --. ...- .--. -.-. .. -... .-.. -... -..- -... ...  -... ...-- .-.. .-.. --.. -..- -- ..-
+-->
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Working with Engineers]]></title>
     <link href="http://sansmischevia.github.com/blog/2012/10/16/workingwith-engineers/"/>
     <updated>2012-10-16T11:29:00-07:00</updated>
     <id>http://sansmischevia.github.com/blog/2012/10/16/workingwith-engineers</id>
-    <content type="html"><![CDATA[<p>I’m currently 37,000 feet over Lake Michigan, on my way to New York. It&#8217;s been an incredible ride this past year. On the 28th of October, it will mark the one-year anniversary of me leaving my cushy corporate job and embarking on a journey to staruplandia. Things have been going great, and our team has been growing.</p>
+    <content type="html"><![CDATA[<p>I’m currently 37,000 feet over Lake Michigan, on my way to New York. It&#8217;s been an incredible ride this past year. On the 28th of October, it will mark the one-year anniversary of me leaving my cushy corporate job and embarking on a journey to startuplandia. Things have been going great, and our team has been growing.</p>
 
 <!--more-->
 
@@ -217,7 +266,7 @@ and
 <span class='line-number'>19</span>
 <span class='line-number'>20</span>
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
-</span><span class='line'><span class="kt">void</span> <span class="n">e</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
+</span><span class='line'><span class="kt">void</span> <span class="nf">e</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
 </span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
 </span><span class='line'><span class="p">{</span>
 </span><span class='line'>   <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
